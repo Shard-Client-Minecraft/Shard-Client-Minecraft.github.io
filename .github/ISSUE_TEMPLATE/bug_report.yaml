@@ -38,7 +38,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct]
+      description: By submitting this issue, you agree to follow our Code of Conduct
       options:
         - label: I agree to follow Sols Code of Conduct
           required: true
