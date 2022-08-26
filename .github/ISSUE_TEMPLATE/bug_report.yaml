@@ -19,23 +19,28 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: browser
     attributes:
       label: What browser is your default for HTML?
-      multiple: true
+      multiple: false
       options:
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
-       validations:
-         required: true
+        - Other (please specify)
+        required: true
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+- type: textarea
+    id: extra-info
+    attributes:
+      label: Extra information
+      description: Extra info for our troubleshooting. Specify your browser here.
   - type: checkboxes
     id: terms
     attributes:
