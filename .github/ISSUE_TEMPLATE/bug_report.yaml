@@ -29,7 +29,6 @@ body:
         - Safari
         - Microsoft Edge
         - Other (please specify)
-        required: true
   - type: textarea
     id: logs
     attributes:
