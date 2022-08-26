@@ -22,7 +22,7 @@ body:
     id: browser
     attributes:
       label: What browser is your default for HTML?
-      multiple: false
+      multiple: true
       options:
         - Firefox
         - Chrome
